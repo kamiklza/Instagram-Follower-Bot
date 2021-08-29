@@ -64,7 +64,7 @@ class InstaFollower:
         for follow in follow_btn:
             follow.click()
             scroll_count += 1
-            time.sleep(1)
+            time.sleep(2)
             if scroll_count % 6 == 0:
                 scroll_box.send_keys(Keys.PAGE_DOWN)
                 time.sleep(1)
